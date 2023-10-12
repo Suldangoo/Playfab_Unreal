@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect
 
-app = Flask(__name__)
+app = Flask(__name__) # Flask 사용
 
 # 멤버와 책 정보 저장
 members = {}  # {"이름": "전화번호", ...}
