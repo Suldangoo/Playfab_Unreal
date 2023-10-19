@@ -1,4 +1,6 @@
-def calculate(a, b, operator):
+# 두 정수를 입력받으면 사칙연산을 수행하는 파이썬 코드
+
+def calculate(a, b, operator): # 계산기 함수
     if operator == '+':
         return a + b
     elif operator == '-':
