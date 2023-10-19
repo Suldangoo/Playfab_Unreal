@@ -1,13 +1,13 @@
 # 두 정수를 입력받으면 사칙연산을 수행하는 파이썬 코드
 
 def calculate(a, b, operator): # 계산기 함수
-    if operator == '+':
+    if operator == '+': # 더하기 입력 시
         return a + b
-    elif operator == '-':
+    elif operator == '-': # 빼기 입력 시
         return a - b
-    elif operator == '*':
+    elif operator == '*': # 곱하기 입력 시
         return a * b
-    elif operator == '/':
+    elif operator == '/': # 나누기 입력 시
         if b == 0:
             return "0으로 나눌 수 없습니다."
         else:
