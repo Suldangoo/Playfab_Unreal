@@ -1,3 +1,5 @@
+# 원격 저장소에서 직접 주석 추가
+
 from datetime import datetime
 
 def calculate_age(birth_date, base_date):
