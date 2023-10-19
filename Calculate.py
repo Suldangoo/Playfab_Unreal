@@ -1,4 +1,4 @@
-# 두 정수를 입력받으면 사칙연산을 수행하는 파이썬 코드
+# 계산기 코드 실습 과제
 
 def calculate(a, b, operator): # 계산기 함수
     if operator == '+': # 더하기 입력 시
